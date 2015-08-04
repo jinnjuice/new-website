@@ -1,5 +1,30 @@
-body {
-    padding-top: 50px;
+#header-container {
+    height: 150px;
+}
+
+#name-row {
+    height: 100%;
+}
+
+#name-container {
+    height: 100%;
+}
+
+#my-name {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    margin-top: 35px;
+}
+
+#j {
+    font-family: 'Parisienne', cursive;
+    color: white;
+    background-color: black;
+    border:  5px solid white;
+    box-shadow: 5px 5px black;
+    border-radius: 50%;
+    padding: 20px 35px;
 }
 
 nav.navbar-findcond { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
@@ -20,3 +45,6 @@ nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color
 nav.navbar-findcond span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
 nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
 
+.name {
+    margin: auto;
+}
