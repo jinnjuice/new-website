@@ -12,7 +12,8 @@
 
 #my-name {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
     font-size: 50px;
     margin-top: 35px;
 }
@@ -21,30 +22,42 @@
     font-family: 'Parisienne', cursive;
     color: white;
     background-color: black;
-    border:  5px solid white;
-    box-shadow: 5px 5px black;
+    border:  5px double;
     border-radius: 50%;
     padding: 20px 35px;
+    margin: 0 15px;
 }
 
-nav.navbar-findcond { background: #fff; border-color: #ccc; box-shadow: 0 0 2px 0 #ccc; }
-nav.navbar-findcond a { color: #f14444; }
-nav.navbar-findcond ul.navbar-nav a { color: #f14444; border-style: solid; border-width: 0 0 2px 0; border-color: #fff; }
-nav.navbar-findcond ul.navbar-nav a:hover,
-nav.navbar-findcond ul.navbar-nav a:visited,
-nav.navbar-findcond ul.navbar-nav a:focus,
-nav.navbar-findcond ul.navbar-nav a:active { background: #fff; }
-nav.navbar-findcond ul.navbar-nav a:hover { border-color: #f14444; }
-nav.navbar-findcond li.divider { background: #ccc; }
-nav.navbar-findcond button.navbar-toggle { background: #f14444; border-radius: 2px; }
-nav.navbar-findcond button.navbar-toggle:hover { background: #999; }
-nav.navbar-findcond button.navbar-toggle > span.icon-bar { background: #fff; }
-nav.navbar-findcond ul.dropdown-menu { border: 0; background: #fff; border-radius: 4px; margin: 4px 0; box-shadow: 0 0 4px 0 #ccc; }
-nav.navbar-findcond ul.dropdown-menu > li > a { color: #444; }
-nav.navbar-findcond ul.dropdown-menu > li > a:hover { background: #f14444; color: #fff; }
-nav.navbar-findcond span.badge { background: #f14444; font-weight: normal; font-size: 11px; margin: 0 4px; }
-nav.navbar-findcond span.badge.new { background: rgba(255, 0, 0, 0.8); color: #fff; }
+.navbar-default {
+    margin-top: 35px;
+    background-color: transparent;
+    border: none;
+}
 
-.name {
-    margin: auto;
+.container-fluid {
+    margin-left: 30%;
+    height: 40px;
+}
+
+.red-border {
+    border-right: 2px solid red;
+    width: 150px;
+    margin-top: 10px;
+    height: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#projects {
+    border: none;
+}
+
+.navbar-collapse {
+    height: 30px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 26px;
 }
