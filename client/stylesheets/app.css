@@ -67,7 +67,16 @@
     margin-top: 20px;
 }
 
+.thumbnail a > img {
+    margin: none;
+    display: inline;
+}
+
 .portrait {
     border-radius: 50%;
     border: 5px double;
+}
+
+.caption {
+    margin-left: 30px;
 }
