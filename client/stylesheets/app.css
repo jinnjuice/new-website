@@ -61,3 +61,13 @@
     padding-bottom: 3px;
     height: 26px;
 }
+
+.thumbnail {
+    border: none;
+    margin-top: 20px;
+}
+
+.portrait {
+    border-radius: 50%;
+    border: 5px double;
+}
