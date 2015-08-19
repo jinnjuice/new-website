@@ -107,3 +107,14 @@
 a, a:hover, a:focus {
     text-decoration: none;
 }
+
+#intro {
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+
+#ps {
+    font-size: 7px;
+
+}
