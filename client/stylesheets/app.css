@@ -104,7 +104,7 @@ p {
     opacity: 0.8;
 }
 
-#landing-page > h1, h3, h4 {
+#landing-page > h1, #landing-page > h3, #landing-page > h4 {
     margin-top: 20px;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
@@ -132,12 +132,17 @@ a, a:hover, a:focus {
     margin-top: 35px;
 }
 
-.contact-method {
+.contact-method, .project-box {
     height: 70px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
+.project-box {
+    padding-left: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
 
 .contact-method > p {
     padding: 15px 170px;
@@ -168,5 +173,30 @@ a, a:hover, a:focus {
     margin: auto;
     height: 200px;
     width: 200px;
+}
+
+.angular-proj {
+    background: #E86469 url(/assets/angular-logo.png) no-repeat right center;
+    background-size: 200px;
+    color: white;
+}
+
+.meteor-proj {
+    background: #3C3F50 url(/assets/meteor-logo.png) no-repeat right center;
+    background-size: 200px;
+    color: #C24C4F;
+}
+
+.rust-proj {
+    background: #ffffff url(/assets/rust-logo.png) no-repeat right center;
+    background-size: 200px;
+    border: 1px solid;
+    color: black;
+}
+
+.javascript-proj {
+    background: #F0DB4F url(/assets/javascript-logo.png) no-repeat 100% 75%;
+    background-size: 200px;
+    color: black;
 }
 
