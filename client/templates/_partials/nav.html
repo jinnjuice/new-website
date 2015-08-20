@@ -5,24 +5,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="red-border"><a href="{{pathFor 'homeAboutMe'}}">ABOUT</a></li>
-                    <li class="red-border"><a href="{{pathFor 'homeContactMe'}}">CONTACT</a></li>
-                    <li class="red-border"><a href="#">PHOTOS</a></li>
-                    <li class="red-border dropdown" id="projects">
-                        <a href="{{pathFor 'projects'}}" class="dropdown-toggle" data-toggle="dropdown"
-                           role="button"
-                           aria-haspopup="true"
-                           aria-expanded="false">PROJECTS <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
+                    <li class="red-border"><a href="{{pathFor 'about'}}">ABOUT</a></li>
+                    <li class="red-border"><a href="{{pathFor 'contact'}}">CONTACT</a></li>
+                    <li class="red-border"><a href="{{pathFor 'resume'}}">RESUME</a></li>
+                    <li class="red-border" id="projects"><a href="{{pathFor 'projects'}}">PROJECTS</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
 
