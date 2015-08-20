@@ -1,3 +1,7 @@
+.container {
+    margin-bottom: 40px;
+}
+
 #header-container {
     height: 150px;
 }
@@ -8,6 +12,7 @@
 
 #name-container {
     height: 100%;
+    margin-left: 23%
 }
 
 #my-name {
@@ -36,7 +41,7 @@
 }
 
 .container-fluid {
-    margin-left: 30%;
+    margin-left: 29%;
     height: 40px;
 }
 
@@ -88,7 +93,7 @@
 
 #landing-page {
     margin-top: 20px;
-    background: url("/assets/cocktail-highres.jpg") center center;
+    background: url(/assets/cocktail-highres.jpg) center center;
     background-size: cover;
     border: 5px double;
     opacity: 0.8;
@@ -116,5 +121,40 @@ a, a:hover, a:focus {
 
 #ps {
     font-size: 7px;
+}
+
+.contact-group {
+    margin-top: 35px;
+}
+
+.contact-method {
+    height: 70px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+.contact-method > p {
+    padding: 15px 150px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+#phone {
+    background: black url(/assets/mobile-phone.png) no-repeat left center;
+    background-size: 150px;
+}
+
+#email {
+    background: #DD0018 url(/assets/email-icon.png) no-repeat left center;
+    background-size: 150px;
 
 }
+
+#tweet {
+    background: #00A8EB url(/assets/twitter-icon.png) no-repeat left center;
+    background-size: 150px;
+}
+
