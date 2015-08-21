@@ -139,7 +139,7 @@ a, a:hover, a:focus {
 }
 
 .contact-method, .project-box {
-    height: 70px;
+    height: 80px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -152,27 +152,27 @@ a, a:hover, a:focus {
 }
 
 .contact-method > p {
-    padding: 15px 220px;
+    padding: 15px 0 15px 300px;
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 #phone {
-    background: black url(/assets/mobile-phone.png) no-repeat left center;
-    background-size: 150px;
+    background: black url(/assets/mobile-phone.png) no-repeat 10% center;
+    background-size: 175px;
 }
 
 #email {
-    background: #DD0018 url(/assets/email-icon.png) no-repeat left center;
-    background-size: 150px;
+    background: #DD0018 url(/assets/email-icon.png) no-repeat 10% center;
+    background-size: 175px;
 
 }
 
 #tweet {
-    background: #00A8EB url(/assets/twitter-icon.png) no-repeat left center;
-    background-size: 150px;
+    background: #00A8EB url(/assets/twitter-icon.png) no-repeat 10% center;
+    background-size: 175px;
 }
 
 #qr {
@@ -184,26 +184,26 @@ a, a:hover, a:focus {
 
 .angular-proj {
     background: #E86469 url(/assets/angular-logo.png) no-repeat 85% center;
-    background-size: 200px;
+    background-size: 225px;
     color: white;
 }
 
 .meteor-proj {
     background: #3C3F50 url(/assets/meteor-logo.png) no-repeat 85% center;
-    background-size: 200px;
+    background-size: 225px;
     color: #C24C4F;
 }
 
 .rust-proj {
-    background: #ffffff url(/assets/rust-logo.png) no-repeat 85% center;
-    background-size: 200px;
+    background: #ffffff url(/assets/rust-logo.png) no-repeat 85% 40%;
+    background-size: 225px;
     border: 1px solid;
     color: black;
 }
 
 .javascript-proj {
     background: #F0DB4F url(/assets/javascript-logo.png) no-repeat 80% 75%;
-    background-size: 200px;
+    background-size: 225px;
     color: black;
 }
 
