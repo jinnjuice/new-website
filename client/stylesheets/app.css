@@ -145,9 +145,10 @@ a, a:hover, a:focus {
 }
 
 .project-box {
-    padding-left: 25px;
+    padding-left: 30px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
+    margin-bottom: 20px;
 }
 
 .contact-method > p {
@@ -182,26 +183,26 @@ a, a:hover, a:focus {
 }
 
 .angular-proj {
-    background: #E86469 url(/assets/angular-logo.png) no-repeat right center;
+    background: #E86469 url(/assets/angular-logo.png) no-repeat 85% center;
     background-size: 200px;
     color: white;
 }
 
 .meteor-proj {
-    background: #3C3F50 url(/assets/meteor-logo.png) no-repeat right center;
+    background: #3C3F50 url(/assets/meteor-logo.png) no-repeat 85% center;
     background-size: 200px;
     color: #C24C4F;
 }
 
 .rust-proj {
-    background: #ffffff url(/assets/rust-logo.png) no-repeat right center;
+    background: #ffffff url(/assets/rust-logo.png) no-repeat 85% center;
     background-size: 200px;
     border: 1px solid;
     color: black;
 }
 
 .javascript-proj {
-    background: #F0DB4F url(/assets/javascript-logo.png) no-repeat 100% 75%;
+    background: #F0DB4F url(/assets/javascript-logo.png) no-repeat 80% 75%;
     background-size: 200px;
     color: black;
 }
