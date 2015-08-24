@@ -139,8 +139,9 @@ a, a:hover, a:focus {
 }
 
 .contact-method, .project-box {
-    height: 80px;
-    border-radius: 5px;
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
@@ -160,19 +161,27 @@ a, a:hover, a:focus {
 }
 
 #phone {
-    background: black url(/assets/mobile-phone.png) no-repeat 10% center;
-    background-size: 175px;
+    background: url("/assets/phone-icon.png") no-repeat center center,
+                url("/assets/coaster-texture.jpg") no-repeat center center;
+    background-size: 150px, 500px;
+    border: 10px double black;
+    box-shadow: 2px 2px black;
 }
 
 #email {
-    background: #DD0018 url(/assets/email-icon.png) no-repeat 10% center;
-    background-size: 175px;
-
+    background: url("/assets/email-logo.png") no-repeat center center,
+                url("/assets/coaster-texture.jpg") no-repeat center center;
+    background-size: 150px, 500px;
+    border: 10px double black;
+    box-shadow: 2px 2px black;
 }
 
 #tweet {
-    background: #00A8EB url(/assets/twitter-icon.png) no-repeat 10% center;
-    background-size: 175px;
+    background: url("/assets/twitter-logo1.png") no-repeat center center,
+                url("/assets/coaster-texture.jpg") no-repeat center center;
+    background-size: 175px, 500px;
+    border: 10px double black;
+    box-shadow: 2px 2px black;
 }
 
 #qr {
