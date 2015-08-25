@@ -185,10 +185,22 @@ a, a:hover, a:focus {
 
 .contact-method > p {
     padding: 15px 0 15px 300px;
-    color: white;
+    color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
     font-size: 30px;
+}
+
+.coaster-writing {
+    padding-top: 30px;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 35px;
+    color: #F23535;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }
 
 #phone {
@@ -196,7 +208,7 @@ a, a:hover, a:focus {
                 url("/assets/coaster-texture.jpg") no-repeat center center;
     background-size: 150px, 500px;
     border: 10px double black;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px #544e45;
 }
 
 #email {
@@ -204,7 +216,9 @@ a, a:hover, a:focus {
                 url("/assets/coaster-texture.jpg") no-repeat center center;
     background-size: 150px, 500px;
     border: 10px double black;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px #544e45;
+    font-size: 20px;
+    padding-left: 30px
 }
 
 #tweet {
@@ -212,7 +226,7 @@ a, a:hover, a:focus {
                 url("/assets/coaster-texture.jpg") no-repeat center center;
     background-size: 175px, 500px;
     border: 10px double black;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px #544e45;
 }
 
 #qr {
