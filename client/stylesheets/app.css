@@ -151,6 +151,7 @@ a, a:hover, a:focus {
 .contact-container {
     position: relative;
     height: 20em;
+    cursor: url("/assets/beer.png"), default;
 }
 
 .contact-group {
@@ -229,11 +230,18 @@ a, a:hover, a:focus {
     box-shadow: 2px 2px #544e45;
 }
 
+.jd-label {
+    height: 600px;
+    background: url(/assets/jack-daniels-logo.png) no-repeat center center;
+    background-size: cover;
+}
+
 #qr {
     display: block;
-    margin: auto;
-    height: 200px;
-    width: 200px;
+    margin: 157px 0 0 235px;
+    border-radius: 4em 4em 4em 4em / 1em 1em 1em 1em;
+    height: 105px;
+    width: 100px;
 }
 
 .angular-proj {
