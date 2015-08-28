@@ -195,7 +195,7 @@ a, a:hover, a:focus {
     padding-top: 30px;
     font-family: 'Covered By Your Grace', cursive;
     font-size: 35px;
-    color: #F23535;
+    color: #dc143c;
     -webkit-transform: rotate(-30deg);
     -moz-transform: rotate(-30deg);
     -ms-transform: rotate(-30deg);
@@ -206,15 +206,15 @@ a, a:hover, a:focus {
 #phone {
     background: url("/assets/phone-icon.png") no-repeat center center,
                 url("/assets/coaster-texture.jpg") no-repeat center center;
-    background-size: 150px, 500px;
+    background-size: 100px, 500px;
     border: 10px double black;
     box-shadow: 2px 2px #544e45;
 }
 
 #email {
-    background: url("/assets/email-logo.png") no-repeat center center,
+    background: url("/assets/email-icon.png") no-repeat center center,
                 url("/assets/coaster-texture.jpg") no-repeat center center;
-    background-size: 150px, 500px;
+    background-size: 125px, 500px;
     border: 10px double black;
     box-shadow: 2px 2px #544e45;
     font-size: 20px;
@@ -222,9 +222,9 @@ a, a:hover, a:focus {
 }
 
 #tweet {
-    background: url("/assets/twitter-logo1.png") no-repeat center center,
+    background: url("/assets/twitter-icon.png") no-repeat center center,
                 url("/assets/coaster-texture.jpg") no-repeat center center;
-    background-size: 175px, 500px;
+    background-size: 100px, 500px;
     border: 10px double black;
     box-shadow: 2px 2px #544e45;
 }
