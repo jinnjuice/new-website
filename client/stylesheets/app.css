@@ -170,18 +170,11 @@ a, a:hover, a:focus {
     font-size: 4em;
 }
 
-.contact-method, .project-box {
+.contact-method {
     height: 225px;
     width: 225px;
     border-radius: 50%;
     margin: 20px 20px 10px;
-}
-
-.project-box {
-    padding-left: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
-    margin-bottom: 20px;
 }
 
 .contact-method > p {
@@ -244,6 +237,25 @@ a, a:hover, a:focus {
     width: 100px;
 }
 
+.project-box {
+    height: 200px;
+    width: 350px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    font-family: 'Warnes', cursive;
+}
+
+.project-box h4:hover {
+    color: white;
+}
+
+.project-box:hover {
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+    color: white;
+}
+
 .angular-proj {
     background: #E86469 url(/assets/angular-logo.png) no-repeat 85% center;
     background-size: 225px;
@@ -251,10 +263,22 @@ a, a:hover, a:focus {
 }
 
 .meteor-proj {
-    background: #3C3F50 url(/assets/meteor-logo.png) no-repeat 85% center;
-    background-size: 225px;
-    color: #C24C4F;
+    background: #3C3F50 url(/assets/meteor-logo.png) no-repeat right bottom;
+    background-size: 175px;
+    color: #da402c;
+    border: 10px double #da402c;
 }
+
+.meteor-proj:hover {
+    background: #3C3F50 url(/assets/meteor-logo-gray.jpg) no-repeat 85% 90%;
+    background-size: 125px;
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+    color: white;
+    border: 10px double #ffffff;
+}
+
 
 .rust-proj {
     background: #ffffff url(/assets/rust-logo.png) no-repeat 85% 40%;
@@ -268,4 +292,67 @@ a, a:hover, a:focus {
     background-size: 225px;
     color: black;
 }
+
+@-webkit-keyframes neon2 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #da402c,
+        0 0 70px #da402c,
+        0 0 80px #da402c,
+        0 0 100px #da402c,
+        0 0 150px #da402c;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #da402c,
+        0 0 35px #da402c,
+        0 0 40px #da402c,
+        0 0 50px #da402c,
+        0 0 75px #da402c;
+    }
+}
+
+@keyframes neon2 {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px #da402c,
+        0 0 70px  #da402c,
+        0 0 80px  #da402c,
+        0 0 100px #da402c,
+        0 0 150px #da402c;
+        box-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #da402c,
+        0 0 70px  #da402c,
+        0 0 80px  #da402c,
+        0 0 100px #da402c,
+        0 0 150px #da402c;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #da402c,
+        0 0 35px #da402c,
+        0 0 40px #da402c,
+        0 0 50px #da402c,
+        0 0 75px #da402c;
+        box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #da402c,
+        0 0 35px #da402c,
+        0 0 40px #da402c,
+        0 0 50px #da402c,
+        0 0 75px #da402c;
+    }
+}
+
 
