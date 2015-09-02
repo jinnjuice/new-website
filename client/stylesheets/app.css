@@ -237,63 +237,112 @@ a, a:hover, a:focus {
     width: 100px;
 }
 
-.project-box {
-    height: 200px;
-    width: 350px;
-    margin: 20px 20px;
-    border-radius: 15px;
-    font-family: 'Warnes', cursive;
+.projects-row {
+    margin: 20px 40px;
 }
 
-.project-box h4:hover {
-    color: white;
+.project-box {
+    height: 175px;
+    width: 300px;
+    margin: 20px 20px;
+    font-family: 'Warnes', cursive;
+    color: #000000;
+    text-align: center;
+    padding: auto;
+}
+
+.project-box h2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -75%);
 }
 
 .project-box:hover {
-    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
-    animation: neon2 1.5s ease-in-out infinite alternate;
+    -webkit-animation: redneon 1.5s ease-in-out infinite alternate;
+    -moz-animation: redneon 1.5s ease-in-out infinite alternate;
+    animation: redneon 1.5s ease-in-out infinite alternate;
     color: white;
 }
 
 .angular-proj {
-    background: #E86469 url(/assets/angular-logo.png) no-repeat 85% center;
+    width: 250px;
+    color: #ba5a5d;
+    background: #E86469 url(/assets/angular-logo.png) no-repeat center center;
     background-size: 225px;
-    color: white;
+    border-radius: 50% 50% 50% 50% / 25% 25% 25% 25% ;
+    border: 10px double #3C3F50;
+}
+
+.angular-proj:hover {
+    background: #b93942 url(/assets/angular-logo.png) no-repeat center center;
+    background-size: 225px;
+    -webkit-animation: pinkneon 1.5s ease-in-out infinite alternate;
+    -moz-animation: pinkneon 1.5s ease-in-out infinite alternate;
+    animation: pinkneon 1.5s ease-in-out infinite alternate;
+    border: 10px double #ffffff;
+    color: #ffffff;
 }
 
 .meteor-proj {
-    background: #3C3F50 url(/assets/meteor-logo.png) no-repeat right bottom;
+    width: 250px;
+    background: #3C3F50 url(/assets/meteor-logo.png) no-repeat center center;
     background-size: 175px;
-    color: #da402c;
     border: 10px double #da402c;
+    border-radius: 0 5em 5em 5em / 0 5em 5em 5em;
 }
 
 .meteor-proj:hover {
-    background: #3C3F50 url(/assets/meteor-logo-gray.jpg) no-repeat 85% 90%;
+    background: #3C3F50 url(/assets/meteor-logo-gray.jpg) no-repeat center center;
     background-size: 125px;
-    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
-    animation: neon2 1.5s ease-in-out infinite alternate;
+    -webkit-animation: redneon 1.5s ease-in-out infinite alternate;
+    -moz-animation: redneon 1.5s ease-in-out infinite alternate;
+    animation: redneon 1.5s ease-in-out infinite alternate;
     color: white;
     border: 10px double #ffffff;
 }
 
-
 .rust-proj {
-    background: #ffffff url(/assets/rust-logo.png) no-repeat 85% 40%;
-    background-size: 225px;
-    border: 1px solid;
-    color: black;
+    margin: 20px 50px;
+    width: 175px;
+    background: #ffffff url(/assets/rust-logo.png) no-repeat center center;
+    background-size: 125px;
+    color: #4f0a88;
+    border: 10px double #000000;
+    border-radius: 50%;
+}
+
+.rust-proj:hover {
+    background: #3C3F50 url(/assets/rust-logo.png) no-repeat center center;
+    background-size: 125px;
+    -webkit-animation: purpleneon 1.5s ease-in-out infinite alternate;
+    -moz-animation: purpleneon 1.5s ease-in-out infinite alternate;
+    animation: purpleneon 1.5s ease-in-out infinite alternate;
+    color: white;
+    border: 10px double #ffffff;
 }
 
 .javascript-proj {
-    background: #F0DB4F url(/assets/javascript-logo.png) no-repeat 80% 75%;
-    background-size: 225px;
-    color: black;
+    width: 250px;
+    background: #F0DB4F url(/assets/js-logo.png) no-repeat center center;
+    background-size: 125px;
+    color: #a6a01f;
+    border-radius: 50%;
+    border: 10px double #000000;
 }
 
-@-webkit-keyframes neon2 {
+.javascript-proj:hover {
+    background: #8d7931 url(/assets/js-logo.png) no-repeat center center;
+    background-size: 125px;
+    -webkit-animation: yellowneon 1.5s ease-in-out infinite alternate;
+    -moz-animation: yellowneon 1.5s ease-in-out infinite alternate;
+    animation: yellowneon 1.5s ease-in-out infinite alternate;
+    color: white;
+    border: 10px double #ffffff;
+}
+
+@-webkit-keyframes redneon {
     from {
         text-shadow: 0 0 10px #fff,
         0 0 20px #fff,
@@ -315,8 +364,7 @@ a, a:hover, a:focus {
         0 0 75px #da402c;
     }
 }
-
-@keyframes neon2 {
+@keyframes redneon {
     from {
         text-shadow: 0 0 10px #fff,
         0 0 20px  #fff,
@@ -352,6 +400,222 @@ a, a:hover, a:focus {
         0 0 40px #da402c,
         0 0 50px #da402c,
         0 0 75px #da402c;
+    }
+}
+
+@-webkit-keyframes pinkneon {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #da1bb4,
+        0 0 70px #da1bb4,
+        0 0 80px #da1bb4,
+        0 0 100px #da1bb4,
+        0 0 150px #da1bb4;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #da1bb4,
+        0 0 35px #da1bb4,
+        0 0 40px #da1bb4,
+        0 0 50px #da1bb4,
+        0 0 75px #da1bb4;
+    }
+}
+@keyframes pinkneon {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px #da1bb4,
+        0 0 70px  #da1bb4,
+        0 0 80px  #da1bb4,
+        0 0 100px #da1bb4,
+        0 0 150px #da1bb4;
+        box-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #da1bb4,
+        0 0 70px  #da1bb4,
+        0 0 80px  #da1bb4,
+        0 0 100px #da1bb4,
+        0 0 150px #da1bb4;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #da1bb4,
+        0 0 35px #da1bb4,
+        0 0 40px #da1bb4,
+        0 0 50px #da1bb4,
+        0 0 75px #da1bb4;
+        box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #da1bb4,
+        0 0 35px #da1bb4,
+        0 0 40px #da1bb4,
+        0 0 50px #da1bb4,
+        0 0 75px #da1bb4;
+    }
+}
+
+@-webkit-keyframes purpleneon {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #310a59,
+        0 0 70px #310a59,
+        0 0 80px #310a59,
+        0 0 100px #310a59,
+        0 0 150px #310a59;
+        box-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #310a59,
+        0 0 70px  #310a59,
+        0 0 80px  #310a59,
+        0 0 100px #310a59,
+        0 0 150px #310a59;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #310a59,
+        0 0 35px #310a59,
+        0 0 40px #310a59,
+        0 0 50px #310a59,
+        0 0 75px #310a59;
+        box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #310a59,
+        0 0 35px #310a59,
+        0 0 40px #310a59,
+        0 0 50px #310a59,
+        0 0 75px #310a59;
+
+    }
+}
+@keyframes purpleneon {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px #310a59,
+        0 0 70px  #310a59,
+        0 0 80px  #310a59,
+        0 0 100px #310a59,
+        0 0 150px #310a59;
+        box-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #310a59,
+        0 0 70px  #310a59,
+        0 0 80px  #310a59,
+        0 0 100px #310a59,
+        0 0 150px #310a59;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #310a59,
+        0 0 35px #310a59,
+        0 0 40px #310a59,
+        0 0 50px #310a59,
+        0 0 75px #310a59;
+        box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #310a59,
+        0 0 35px #310a59,
+        0 0 40px #310a59,
+        0 0 50px #310a59,
+        0 0 75px #310a59;
+    }
+}
+
+@-webkit-keyframes yellowneon {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #d3ff03,
+        0 0 70px #d3ff03,
+        0 0 80px #d3ff03,
+        0 0 100px #d3ff03,
+        0 0 150px #d3ff03;
+        box-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #d3ff03,
+        0 0 70px  #d3ff03,
+        0 0 80px  #d3ff03,
+        0 0 100px #d3ff03,
+        0 0 150px #d3ff03;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #d3ff03,
+        0 0 35px #d3ff03,
+        0 0 40px #d3ff03,
+        0 0 50px #d3ff03,
+        0 0 75px #d3ff03;
+        box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #d3ff03,
+        0 0 35px #d3ff03,
+        0 0 40px #d3ff03,
+        0 0 50px #d3ff03,
+        0 0 75px #d3ff03;
+    }
+}
+@keyframes yellowneon {
+    from {
+        text-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px #d3ff03,
+        0 0 70px  #d3ff03,
+        0 0 80px  #d3ff03,
+        0 0 100px #d3ff03,
+        0 0 150px #d3ff03;
+        box-shadow: 0 0 10px #fff,
+        0 0 20px  #fff,
+        0 0 30px  #fff,
+        0 0 40px  #d3ff03,
+        0 0 70px  #d3ff03,
+        0 0 80px  #d3ff03,
+        0 0 100px #d3ff03,
+        0 0 150px #d3ff03;
+    }
+    to {
+        text-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #d3ff03,
+        0 0 35px #d3ff03,
+        0 0 40px #d3ff03,
+        0 0 50px #d3ff03,
+        0 0 75px #d3ff03;
+        box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #d3ff03,
+        0 0 35px #d3ff03,
+        0 0 40px #d3ff03,
+        0 0 50px #d3ff03,
+        0 0 75px #d3ff03;
     }
 }
 
